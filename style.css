@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+.header{
+    font-family: 'Lobster', cursive;
+    font-size: 101px;
+    text-align: center;
+    
+    color: rgb(7, 80, 7);
+}
+
+.result{
+    font-family: 'Mali', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    color: rgb(131, 8, 8);
+}
+
+.players{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin: auto;
+}
+
+.player{
+    width: 30%;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 50px;
+    color: rgb(90, 5, 90);
+}
+
+.player p{
+    margin-left: 50px;
+}
+
+button{
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    margin-left: 47%;
+    cursor: pointer;
+    background-color: rgb(6, 56, 39);
+    color: white;
+}
+
+.footer{
+    font-family: 'Mali', cursive;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
